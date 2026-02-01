@@ -1,0 +1,219 @@
+.productDetail {
+  padding-top: 81px;
+}
+.productDetail .container {
+  padding: 80px 0;
+}
+.productDetail .title {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.productDetail .title span {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #252525;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.productDetail .title span:focus {
+  font-weight: 600;
+}
+.productDetail .productCard {
+  display: flex;
+  justify-content: space-between;
+}
+.productDetail .productCard .imgsCard {
+  width: 570px;
+  height: 594px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.productDetail .productCard .imgsCard .smalImgs {
+  width: 70px;
+  height: 420px;
+  display: grid;
+  gap: 0px;
+}
+.productDetail .productCard .imgsCard .smalImgs .imgs {
+  width: 70px;
+  height: 90px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.productDetail .productCard .imgsCard .smalImgs .imgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.productDetail .productCard .imgsCard .boxImg {
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.productDetail .productCard .imgsCard .boxImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.productDetail .productCard .infoCard {
+  width: 570px;
+}
+.productDetail .productCard .infoCard h2 {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 3.5%;
+  color: #252525;
+  margin-bottom: 10px;
+}
+.productDetail .productCard .infoCard h3 {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 3.5%;
+  color: #252525;
+  margin-bottom: 20px;
+}
+.productDetail .productCard .infoCard .star {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 3px;
+}
+.productDetail .productCard .infoCard .star span {
+  font-family: "Quicksand", serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 3.5%;
+  color: #000000;
+}
+.productDetail .productCard .infoCard .star svg {
+  color: #f47726;
+}
+.productDetail .productCard .infoCard p {
+  font-family: "Quicksand", serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.productDetail .productCard .infoCard h4 {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #000000;
+  margin-bottom: 6px;
+}
+.productDetail .productCard .infoCard input {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #505050;
+  border: 1px solid #252525;
+  border-radius: 10px;
+  padding: 8px 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.productDetail .productCard .infoCard .btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.productDetail .productCard .infoCard .btns button {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 10%;
+  color: #000000;
+  border: 2px solid #252525;
+  border-radius: 100px;
+  padding: 6px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.productDetail .productCard .infoCard .btns button:focus {
+  background-color: #252525;
+  color: white;
+}
+.productDetail .productCard .infoCard .number {
+  width: 55px;
+  height: 40px;
+  border: 2px solid #252525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+.productDetail .productCard .infoCard .add {
+  width: 100%;
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 10%;
+  color: #252525;
+  margin-bottom: 15px;
+  box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.1803921569);
+  border-radius: 100px;
+  background-color: #f6e6cd;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.productDetail .productCard .infoCard .add:hover {
+  transform: scale(0.98);
+}
+.productDetail .productCard .infoCard .buy {
+  width: 100%;
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 10%;
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.1803921569);
+  border-radius: 100px;
+  background-color: #252525;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.productDetail .productCard .infoCard .buy:hover {
+  transform: scale(0.98);
+}
+.productDetail .productCard .infoCard h6 {
+  text-align: center;
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #000000;
+}/*# sourceMappingURL=Productdetail.css.map */

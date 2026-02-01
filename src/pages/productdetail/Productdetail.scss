@@ -1,0 +1,219 @@
+.productDetail {
+  padding-top: 81px;
+  .container {
+    padding: 80px 0;
+  }
+  .title {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    span {
+      font-family: "Quicksand", serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 3.5%;
+      color: #252525;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &:focus {
+        font-weight: 600;
+      }
+    }
+  }
+  .productCard {
+    display: flex;
+    justify-content: space-between;
+    .imgsCard {
+      width: 570px;
+      height: 594px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      .smalImgs {
+        width: 70px;
+        height: 420px;
+        display: grid;
+        gap: 0px;
+        .imgs {
+          width: 70px;
+          height: 90px;
+          border-radius: 10px;
+          overflow: hidden;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+      .boxImg {
+        width: 480px;
+        border-radius: 10px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .infoCard {
+      width: 570px;
+      h2 {
+        font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: 3.5%;
+        color: #252525;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 3.5%;
+        color: #252525;
+        margin-bottom: 20px;
+      }
+      .star {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 3px;
+        span {
+          font-family: "Quicksand", serif;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 140%;
+          letter-spacing: 3.5%;
+          color: #000000;
+        }
+        svg {
+          color: #f47726;
+        }
+      }
+      p {
+        font-family: "Quicksand", serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 3.5%;
+        color: #000000;
+        margin-bottom: 20px;
+      }
+      h4 {
+        font-family: "Quicksand", serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 3.5%;
+        color: #000000;
+        margin-bottom: 6px;
+      }
+      input {
+        font-family: "Quicksand", serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 3.5%;
+        color: #505050;
+        border: 1px solid #252525;
+        border-radius: 10px;
+        padding: 8px 20px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .btns {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        button {
+          font-family: "Quicksand", serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 10%;
+          color: #000000;
+          border: 2px solid #252525;
+          border-radius: 100px;
+          padding: 6px 20px;
+          background-color: transparent;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          &:focus {
+            background-color: #252525;
+            color: white;
+          }
+        }
+      }
+      .number {
+        width: 55px;
+        height: 40px;
+        border: 2px solid #252525;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #000000;
+      }
+      .add {
+        width: 100%;
+        font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 10%;
+        color: #252525;
+        margin-bottom: 15px;
+        box-shadow: 0px 24px 48px 0px #0000002e;
+        border-radius: 100px;
+        background-color: #f6e6cd;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          transform: scale(0.98);
+        }
+      }
+      .buy {
+        width: 100%;
+        font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 10%;
+        color: white;
+        margin-bottom: 10px;
+        box-shadow: 0px 24px 48px 0px #0000002e;
+        border-radius: 100px;
+        background-color: #252525;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          transform: scale(0.98);
+        }
+      }
+      h6 {
+        text-align: center;
+        font-family: "Quicksand", serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 3.5%;
+        color: #000000;
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+.category {
+  padding-top: 81px;
+}
+.category .hero .container {
+  height: 50vh;
+  align-content: center;
+  text-align: center;
+}
+.category .hero h2 {
+  font-family: "Russo One", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 1%;
+  color: #252525;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.category .hero p {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #252525;
+}
+.category .products-section {
+  margin-bottom: 60px;
+}
+.category .products-section .container {
+  padding: 40px 0;
+}
+.category .products-section .title {
+  margin-bottom: 40px;
+}
+.category .products-section .title h5 {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #252525;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.category .products-section .title h2 {
+  font-family: "Russo One", serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: 1%;
+  color: #252525;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.category .products-section .card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.category .about-section {
+  margin-bottom: 60px;
+}
+.category .about-section .container {
+  text-align: center;
+}
+.category .about-section .container h2 {
+  font-family: "Russo One", serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: 1%;
+  color: #252525;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.category .about-section .container p {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #252525;
+  margin-bottom: 20px;
+}
+.category .about-section .container form {
+  width: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.category .about-section .container form input {
+  width: 70%;
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 10%;
+  color: #252525;
+  border: 2px solid #252525;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 15px;
+}
+.category .about-section .container form button {
+  width: 30%;
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 10%;
+  color: #252525;
+  text-transform: capitalize;
+  border: 2px solid #252525;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.category .about-section .container form button:hover {
+  transform: scale(0.98);
+}
+.category .about-section .container h6 {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #252525;
+}
+.category .about-section .container h6 a {
+  text-decoration: underline;
+  color: #252525;
+}/*# sourceMappingURL=Categorypage.css.map */

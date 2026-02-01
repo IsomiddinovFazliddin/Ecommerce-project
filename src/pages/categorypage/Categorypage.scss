@@ -1,0 +1,143 @@
+.category {
+  padding-top: 81px;
+  .hero {
+    .container {
+      height: 50vh;
+      align-content: center;
+      text-align: center;
+    }
+    h2 {
+      font-family: "Russo One", serif;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 120%;
+      letter-spacing: 1%;
+      color: #252525;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: "Quicksand", serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      letter-spacing: 3.5%;
+      color: #252525;
+    }
+  }
+
+  .products-section {
+    margin-bottom: 60px;
+    .container {
+      padding: 40px 0;
+    }
+    .title {
+      margin-bottom: 40px;
+      h5 {
+        font-family: "Quicksand", serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 3.5%;
+        color: #252525;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-family: "Russo One", serif;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 120%;
+        letter-spacing: 1%;
+        color: #252525;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+      }
+    }
+    .card {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+  }
+
+  .about-section {
+    margin-bottom: 60px;
+    .container {
+      text-align: center;
+      h2 {
+        font-family: "Russo One", serif;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 120%;
+        letter-spacing: 1%;
+        color: #252525;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+      }
+      p {
+        width: 60%;
+        margin: 0 auto;
+        font-family: "Quicksand", serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 3.5%;
+        color: #252525;
+        margin-bottom: 20px;
+      }
+      form {
+        width: 450px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        input {
+          width: 70%;
+          font-family: "Quicksand", serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 10%;
+          color: #252525;
+          border: 2px solid #252525;
+          padding: 10px 20px;
+          background-color: transparent;
+          border-radius: 15px;
+        }
+        button {
+          width: 30%;
+          font-family: "Quicksand", serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 10%;
+          color: #252525;
+          text-transform: capitalize;
+          border: 2px solid #252525;
+          padding: 10px 20px;
+          background-color: transparent;
+          border-radius: 100px;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            transform: scale(0.98);
+          }
+        }
+      }
+      h6 {
+        font-family: "Quicksand", serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 3.5%;
+        color: #252525;
+        a{
+            text-decoration: underline;
+            color: #252525;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+.homeHero {
+  padding-top: 81px;
+  background-color: #f6e6cd;
+}
+.homeHero .container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.homeHero .info {
+  width: 50%;
+}
+.homeHero .info h1 {
+  font-family: "Russo One", serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: 1%;
+  color: #252525;
+  margin-bottom: 20px;
+}
+.homeHero .info p {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 1%;
+  color: #252525;
+  margin-bottom: 20px;
+}
+.homeHero .info button {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 10%;
+  color: #ffffff;
+  background: linear-gradient(to right, #ffb483, #f47726);
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.homeHero .info button:hover {
+  transform: scale(0.98);
+}
+.homeHero .image {
+  width: 50%;
+}
+.homeHero .image img {
+  width: 100%;
+}
+
+.product-section .container {
+  padding: 60px 0;
+}
+.product-section .title {
+  margin-bottom: 40px;
+}
+.product-section .title h5 {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #252525;
+  margin-bottom: 10px;
+}
+.product-section .title h2 {
+  font-family: "Russo One", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 1%;
+  color: #252525;
+  margin-bottom: 10px;
+}
+.product-section .title .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-section .title .row p {
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #252525;
+}
+.product-section .title .row button {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 10%;
+  color: #252525;
+  border: 2px solid #252525;
+  padding: 8px 30px;
+  background-color: transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.product-section .title .row button:hover {
+  transform: scale(0.98);
+}
+.product-section .card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}/*# sourceMappingURL=Homepage.css.map */
