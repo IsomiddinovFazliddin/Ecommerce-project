@@ -70,6 +70,7 @@ function Productdetail({ data }) {
                 className="buy"
                 onClick={() => {
                   alert("Xaridingiz uchun tashakkur");
+                  setNumber(1);
                 }}
               >
                 Buy Now

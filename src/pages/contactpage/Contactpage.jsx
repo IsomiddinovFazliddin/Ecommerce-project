@@ -26,7 +26,7 @@ function Contactpage() {
                 id=""
               ></textarea>
               <div className="row">
-                <input type="checkbox" />
+                <input type="checkbox" required/>
                 <span>I accept the Terms</span>
               </div>
               <button>Submit</button>
